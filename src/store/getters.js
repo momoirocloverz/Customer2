@@ -1,0 +1,16 @@
+export const count = state => state.count
+export const xfdParams = state => state.xfdParams
+export const htParams = state => state.htParams
+export const xfdManagerParams = state => state.xfdManagerParams
+export const rainParams = state => state.rainParams
+export const getShortCutIndex = state => state.shortCutIndex;
+export const getSelectClass = state => state.selectClass;
+export const getSelectProfit = state => state.selectProfit;
+export const getSelectClassTotal = state => state.selectClassTotal;
+export const getSelectProfitTotal = state => state.selectProfitTotal;
+export const getSelectClassList = state => state.selectClassList;
+export const getSelectProfitList = state => state.selectProfitList;
+export const getShortCutIndexOut = state => state.shortCutIndexOut;
+export const getAuditStage = state => state.auditStage;
+export const getTaskMarketInfo = state => state.taskMarketInfo;
+export const getHavePayOwn = state => state.ifHavePayOwn;

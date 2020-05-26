@@ -1,0 +1,43 @@
+{
+  "name": "wc2.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "pre": "vue-cli-service build --mode pre",
+    "test": "vue-cli-service build --mode test",
+    "jq": "vue-cli-service build --mode jq",
+    "zy": "vue-cli-service build --mode zy",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/g2": "^3.5.8-beta.1",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.4.11",
+    "es6-promise": "^4.2.5",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "qrcodejs2": "0.0.2",
+    "qs": "^6.9.1",
+    "signature_pad": "^3.0.0-beta.3",
+    "vue": "^2.5.17",
+    "vue-baidu-map": "^0.21.16",
+    "vue-router": "^3.0.1",
+    "vue-wechat-title": "^2.0.5",
+    "vuex": "^3.0.1",
+    "vuex-persist": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "compression-webpack-plugin": "^2.0.0",
+    "echarts": "^4.2.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
